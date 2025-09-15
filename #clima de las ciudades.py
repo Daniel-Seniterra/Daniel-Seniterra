@@ -1,6 +1,6 @@
 #clima de las ciudades
 temperaturas = [
-    [   # Hong Kong
+    [   # Loja
         [   # Semana 1
             {"día": "Lunes", "temp": 3},
             {"día": "Martes", "temp": 12},
@@ -38,7 +38,7 @@ temperaturas = [
             {"día": "Domingo", "temp": 9}
         ]
     ],
-    [   # Seul
+    [   # Imbabura
         [   # Semana 1
             {"día": "Lunes", "temp": 2},
             {"día": "Martes", "temp": 16},
@@ -76,7 +76,7 @@ temperaturas = [
             {"día": "Domingo", "temp": 25}
         ]
     ],
-    [   # Busan
+    [   # Quito
         [   # Semana 1
             {"día": "Lunes", "temp": 3},
             {"día": "Martes", "temp": 10},
@@ -117,7 +117,7 @@ temperaturas = [
 ]
 
 # Calcular el promedio de temperaturas para cada ciudad y semana
-ciudades = ["Hong Kong", "Seul", "Busan"]
+ciudades = ["Loja", "Imababura", "Quito"]
 for ciudad_idx, ciudad in enumerate(temperaturas):
     for semana_idx, semana in enumerate(ciudad):
         suma_temperaturas = sum([dia["temp"] for dia in semana])
